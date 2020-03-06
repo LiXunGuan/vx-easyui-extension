@@ -1,0 +1,57 @@
+.iconpicker-wrapper{
+    /* background-color: #f7f7f7; */
+    padding:0;
+    width: 235px;
+}
+.iconpicker-wrapper-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconpicker-title{
+    padding: 12px;
+    font-size: 13px;
+    line-height: 15px;
+    border-bottom: 1px solid #ebebeb;
+    background-color: #f7f7f7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.iconpicker-content{
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    overflow-y: auto;
+    min-height: 49px;
+    max-height: 246px;
+    padding: 12px 0 0 12px;
+}
+.iconpicker-content ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap:wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.iconpicker-content li{
+    padding: 3px;
+    margin: 0 12px 12px 0px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    box-shadow: 0 0 0 1px #ddd;
+    color: inherit;
+    list-style: none;
+    box-sizing: content-box;
+    line-height: 0;
+}
+.iconpicker-content li:hover{
+    background-color: #eaf2ff;
+}
+.iconpicker-content li.selected{
+    color: #fff;
+    background-color: #95B8E7;
+}

@@ -1,0 +1,75 @@
+.cywebos-message {
+	position: absolute;
+	top: 50%;
+	margin-top: -27px;
+	z-index: 9999;
+    left: 50%;
+}
+.cywebos-message-inner{
+    position: relative;
+    right: 50%;
+    height: 54px;
+}
+.cywebos-message-left,.msgbox-body,.cywebos-message-right,.msgbox-icon-success,.msgbox-icon-error,.msgbox-icon-info {
+    background: url('./images/msgbox.png') no-repeat;
+}
+.cywebos-message-left {
+    float: left;
+    width: 6px;
+    height: 54px;
+    background-position: -6px 0;
+}
+
+.msgbox-body {
+    float: left;
+    line-height: 54px;
+    height: 54px;
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+    padding: 0 18px 0 10px;
+}
+
+.cywebos-message-right {
+    width: 6px;
+    height: 54px;
+    float: left;
+}
+
+.msgbox-body-icon {
+    float: left;
+    height: 54px;
+}
+
+.msgbox-body-msg {
+    float: left;
+}
+
+.msgbox-icon-success {
+    width: 27px;
+    height: 27px;
+    margin: 13px 0 0 0;
+    background-position: -22px -13px;
+    margin-right: 10px;
+}
+
+.msgbox-icon-loading {
+    background: url('./images/loading.gif') no-repeat center center;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.msgbox-icon-error {
+    width: 27px;
+    height: 27px;
+    margin: 13px 0 0 0;
+    background-position: -23px -120px;
+    margin-right: 10px;
+}
+
+.msgbox-icon-info {
+    width: 27px;
+    height: 27px;
+    margin: 13px 0 0 0;
+    background-position: -22px -66px;
+    margin-right: 10px;
+}

@@ -1,0 +1,424 @@
+.cy-tag {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin: 2px 5px 2px 0;
+    padding: 0 5px 0 8px;
+    border: 1px solid #e8eaec;
+    border-radius: 3px;
+    background: #f7f7f7;
+    font-size: 12px;
+    vertical-align: middle;
+    opacity: 1;
+    overflow: hidden;
+}
+.cy-tag .cy-icon-ios-close{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.cy-tag:not(.cy-tag-border):not(.cy-tag-dot):not(.cy-tag-checked) {
+    background: 0 0;
+    border: 0;
+    color: #515a6e
+}
+
+.cy-tag:not(.cy-tag-border):not(.cy-tag-dot):not(.cy-tag-checked) .ivu-icon-ios-close {
+    color: #515a6e
+}
+
+.cy-tag-color-error {
+    color: #ed4014!important;
+    border-color: #ed4014
+}
+.cy-tag-error .cy-icon-ios-close:hover{
+    color: #fff!important;
+    background-color: #ed4014;
+}
+
+.cy-tag-color-success {
+    color: #19be6b!important;
+    border-color: #19be6b
+}
+.cy-tag-success .cy-icon-ios-close:hover{
+    color: #fff!important;
+    background-color: #19be6b;
+}
+
+.cy-tag-color-primary {
+    color: #2d8cf0!important;
+    border-color: #2d8cf0
+}
+
+.cy-tag-primary .cy-icon-ios-close:hover{
+    color: #fff!important;
+    background-color: #2d8cf0;
+}
+
+.cy-tag-color-warning {
+    color: #f90!important;
+    border-color: #f90
+}
+.cy-tag-warning .cy-icon-ios-close:hover {
+    color: #fff!important;
+    background-color: #f90;
+}
+
+.cy-tag-color-white {
+    color: #fff!important
+}
+
+.cy-tag-dot {
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #e8eaec!important;
+    color: #515a6e!important;
+    background: #fff!important;
+    padding: 0 12px
+}
+
+.cy-tag-dot-inner {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #e8eaec;
+    position: relative;
+    top: 1px
+}
+
+.cy-tag-dot .ivu-icon-ios-close {
+    color: #666!important;
+    margin-left: 12px!important
+}
+
+.cy-tag-border {
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #e8eaec;
+    color: #e8eaec;
+    background: #fff!important;
+    position: relative
+}
+
+.cy-tag-border .ivu-icon-ios-close {
+    color: #666;
+    margin-left: 12px!important
+}
+
+.cy-tag-border:after {
+    content: "";
+    display: none;
+    width: 1px;
+    background: currentColor;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 24px
+}
+
+.cy-tag-border.cy-tag-closable:after {
+    display: block
+}
+
+.cy-tag-border.cy-tag-closable .ivu-icon-ios-close {
+    margin-left: 18px!important;
+    left: 4px;
+    top: -1px
+}
+
+.cy-tag-border.cy-tag-primary {
+    color: #2d8cf0!important;
+    border: 1px solid #2d8cf0!important
+}
+
+.cy-tag-border.cy-tag-primary:after {
+    background: #2d8cf0
+}
+
+.cy-tag-border.cy-tag-primary .ivu-icon-ios-close {
+    color: #2d8cf0!important
+}
+
+.cy-tag-border.cy-tag-success {
+    color: #19be6b!important;
+    border: 1px solid #19be6b!important
+}
+
+.cy-tag-border.cy-tag-success:after {
+    background: #19be6b
+}
+
+.cy-tag-border.cy-tag-success .ivu-icon-ios-close {
+    color: #19be6b!important
+}
+
+.cy-tag-border.cy-tag-warning {
+    color: #f90!important;
+    border: 1px solid #f90!important
+}
+
+.cy-tag-border.cy-tag-warning:after {
+    background: #f90
+}
+
+.cy-tag-border.cy-tag-warning .ivu-icon-ios-close {
+    color: #f90!important
+}
+
+.cy-tag-border.cy-tag-error {
+    color: #ed4014!important;
+    border: 1px solid #ed4014!important
+}
+
+.cy-tag-border.cy-tag-error:after {
+    background: #ed4014
+}
+
+.cy-tag-border.cy-tag-error .ivu-icon-ios-close {
+    color: #ed4014!important
+}
+
+.cy-tag:hover {
+    opacity: .85
+}
+
+.cy-tag-text {
+    color: #515a6e
+}
+
+.cy-tag-text a:first-child:last-child {
+    display: inline-block;
+    margin: 0 -8px;
+    padding: 0 8px
+}
+
+.cy-tag .ivu-icon-ios-close {
+    display: inline-block;
+    font-size: 14px;
+    -webkit-transform: scale(1.42857143) rotate(0);
+    transform: scale(1.42857143) rotate(0);
+    cursor: pointer;
+    margin-left: 2px;
+    color: #666;
+    opacity: .66;
+    position: relative;
+    top: -1px
+}
+
+:root .cy-tag .ivu-icon-ios-close {
+    font-size: 14px
+}
+
+.cy-tag .ivu-icon-ios-close:hover {
+    opacity: 1
+}
+
+.cy-tag-error,.cy-tag-primary,.cy-tag-success,.cy-tag-warning {
+    border: 0
+}
+
+.cy-tag-error,.cy-tag-error .ivu-icon-ios-close,.cy-tag-error .ivu-icon-ios-close:hover,.cy-tag-error a,.cy-tag-error a:hover,.cy-tag-primary,.cy-tag-primary .ivu-icon-ios-close,.cy-tag-primary .ivu-icon-ios-close:hover,.cy-tag-primary a,.cy-tag-primary a:hover,.cy-tag-success,.cy-tag-success .ivu-icon-ios-close,.cy-tag-success .ivu-icon-ios-close:hover,.cy-tag-success a,.cy-tag-success a:hover,.cy-tag-warning,.cy-tag-warning .ivu-icon-ios-close,.cy-tag-warning .ivu-icon-ios-close:hover,.cy-tag-warning a,.cy-tag-warning a:hover {
+    color: #fff
+}
+
+.cy-tag-primary,.cy-tag-primary.cy-tag-dot .cy-tag-dot-inner {
+    background: #2d8cf0
+}
+
+.cy-tag-success,.cy-tag-success.cy-tag-dot .cy-tag-dot-inner {
+    background: #19be6b
+}
+
+.cy-tag-warning,.cy-tag-warning.cy-tag-dot .cy-tag-dot-inner {
+    background: #f90
+}
+
+.cy-tag-error,.cy-tag-error.cy-tag-dot .cy-tag-dot-inner {
+    background: #ed4014
+}
+
+.cy-tag-pink {
+    line-height: 20px;
+    background: #fff0f6;
+    border-color: #ffadd2
+}
+
+.cy-tag-pink .cy-tag-text {
+    color: #eb2f96!important
+}
+
+.cy-tag-pink.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-magenta {
+    line-height: 20px;
+    background: #fff0f6;
+    border-color: #ffadd2
+}
+
+.cy-tag-magenta .cy-tag-text {
+    color: #eb2f96!important
+}
+
+.cy-tag-magenta.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-red {
+    line-height: 20px;
+    background: #fff1f0;
+    border-color: #ffa39e
+}
+
+.cy-tag-red .cy-tag-text {
+    color: #f5222d!important
+}
+
+.cy-tag-red.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-volcano {
+    line-height: 20px;
+    background: #fff2e8;
+    border-color: #ffbb96
+}
+
+.cy-tag-volcano .cy-tag-text {
+    color: #fa541c!important
+}
+
+.cy-tag-volcano.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-orange {
+    line-height: 20px;
+    background: #fff7e6;
+    border-color: #ffd591
+}
+
+.cy-tag-orange .cy-tag-text {
+    color: #fa8c16!important
+}
+
+.cy-tag-orange.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-yellow {
+    line-height: 20px;
+    background: #feffe6;
+    border-color: #fffb8f
+}
+
+.cy-tag-yellow .cy-tag-text {
+    color: #fadb14!important
+}
+
+.cy-tag-yellow.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-gold {
+    line-height: 20px;
+    background: #fffbe6;
+    border-color: #ffe58f
+}
+
+.cy-tag-gold .cy-tag-text {
+    color: #faad14!important
+}
+
+.cy-tag-gold.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-cyan {
+    line-height: 20px;
+    background: #e6fffb;
+    border-color: #87e8de
+}
+
+.cy-tag-cyan .cy-tag-text {
+    color: #13c2c2!important
+}
+
+.cy-tag-cyan.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-lime {
+    line-height: 20px;
+    background: #fcffe6;
+    border-color: #eaff8f
+}
+
+.cy-tag-lime .cy-tag-text {
+    color: #a0d911!important
+}
+
+.cy-tag-lime.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-green {
+    line-height: 20px;
+    background: #f6ffed;
+    border-color: #b7eb8f
+}
+
+.cy-tag-green .cy-tag-text {
+    color: #52c41a!important
+}
+
+.cy-tag-green.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-blue {
+    line-height: 20px;
+    background: #e6f7ff;
+    border-color: #91d5ff
+}
+
+.cy-tag-blue .cy-tag-text {
+    color: #1890ff!important
+}
+
+.cy-tag-blue.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-geekblue {
+    line-height: 20px;
+    background: #f0f5ff;
+    border-color: #adc6ff
+}
+
+.cy-tag-geekblue .cy-tag-text {
+    color: #2f54eb!important
+}
+
+.cy-tag-geekblue.cy-tag-dot {
+    line-height: 32px
+}
+
+.cy-tag-purple {
+    line-height: 20px;
+    background: #f9f0ff;
+    border-color: #d3adf7
+}
+
+.cy-tag-purple .cy-tag-text {
+    color: #722ed1!important
+}
+
+.cy-tag-purple.cy-tag-dot {
+    line-height: 32px
+}
