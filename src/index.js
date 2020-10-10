@@ -29,8 +29,11 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue)
 }
 
-export default {
-    install,
+const EasyuiExtension = {
+    install
+}
+
+export {
     Icon,
     Tag,
     Row,
@@ -38,3 +41,5 @@ export default {
     Msgbox,
     IconPicker
 }
+
+export default EasyuiExtension
