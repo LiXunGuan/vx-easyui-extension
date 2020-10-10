@@ -2,12 +2,7 @@ import 'vx-easyui/dist/themes/default/easyui.css'
 import 'vx-easyui/dist/themes/icon.css'
 import 'vx-easyui/dist/themes/vue.css'
 
-import '@/themes/default/icon.css'
-import '@/themes/default/tag.css'
-import '@/themes/default/row.css'
-import '@/themes/default/col.css'
-import '@/themes/default/iconpicker.css'
-import '@/themes/default/msgbox.css'
+import '@/themes/default/index.css'
 
 
 import './demo.css'
