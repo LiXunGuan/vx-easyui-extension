@@ -6,9 +6,3 @@ easyui for vue使用交流请加QQ群:852212021
 
 [在线演示](https://lixunguan.github.io/vx-easyui-extension/dist/index.html)
 
-# 安装 && 运行
-
-```shell
-yarn install && yarn serve
-```
-
