@@ -35,5 +35,6 @@ export default {
     Tag,
     Row,
     Col,
+    Msgbox,
     IconPicker
 }
