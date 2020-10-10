@@ -6,7 +6,7 @@
 
 <script>
 import { domHelper } from 'vx-easyui'
-import { findComponentDownward, findBrothersComponents } from '@/helpers/functions'
+import { findComponentDownward, findBrothersComponents } from '../../helpers/functions'
 
 const prefixCls = 'cy-row'
 

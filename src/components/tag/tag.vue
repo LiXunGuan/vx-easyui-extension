@@ -15,7 +15,7 @@
 
 <script>
 // import Icon from '../icon'
-import { oneOf } from '@/helpers/functions'
+import { oneOf } from '../../helpers/functions'
 
 const prefixCls = 'cy-tag'
 const initColorList = [

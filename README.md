@@ -15,6 +15,8 @@ yarn add vx-easyui-extension
 ```
 
 ```javascript
-import 'vx-easyui-extension'
+import EasyuiExtension from 'vx-easyui-extension'
 import 'vx-easyui-extension/src/themes/default/index.css'
+
+Vue.use(EasyuiExtension)
 ```

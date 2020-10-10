@@ -1,9 +1,7 @@
 import 'vx-easyui/dist/themes/default/easyui.css'
 import 'vx-easyui/dist/themes/icon.css'
 import 'vx-easyui/dist/themes/vue.css'
-
-import '@/themes/default/index.css'
-
+import '../src/themes/default/index.css'
 
 import './demo.css'
 
